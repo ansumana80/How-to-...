@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+
 <body>
+    <div th:insert="base :: navbar"></div>
 <h1>About Me</h1>
+<hr>
+<div>
+    <img src="https://res.cloudinary.com/dhqp1gurz/image/upload/v1562684497/accountant-56a6348f5f9b58b7d0e06718_yzkkql.jpg" width="500" height="350">
+</div>
 <p>Ansu Rogers is the founder and president of Rogers & Rogers P.C. As a graduate of Ohio State University and a
     licensed CPA in the state of Maryland, Ansu has served as a trusted tax and business advisor to numerous Washington
     Metropolitan area businesses for the past 25 years. Ansu provides personalized attention to each of his clients as
@@ -18,10 +27,10 @@
     Accountants and auditors perform overviews of the financial operations of a business in order to help it run
     efficiently. They also provide the same services to individuals, helping them create plans of action for improved
     financial well-being. At Rogers & Rogers P.C, we do all those things and more</p>
-<ul>
-    <li><a href="index">Home</a></li>
-    <li><a href="contact">Contact</a></li>
 
-</ul>
+    <!-- Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
